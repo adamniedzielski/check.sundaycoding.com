@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.main-title {
+  font-size: 3em;
+  text-align: center;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 120%;
+  background-color: #FAFAFA;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h1, h2 {
+  color: #bf0000;
+  font-family: 'Quattrocento', serif;
+}
+
+.highlight-box {
+  border: 2px solid #710000;
+  padding: 20px;
+  font-size: 1.15em;
+  border-radius: 20px;
+}
+
+.section {
+  margin-bottom: 2.5em;
+}
+
+.ribbon {
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #710000;
+  color: #FAFAFA;
+  font-size: 0.7em;
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.ribbon a {
+  text-decoration: none;
+}
+
+.centered-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.needle {
+  max-height: 75px;
+}
+
+.doctor {
+  max-height: 200px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  color: #710000;
+}
+
+ul li span {
+  color: #000;
+}
+
+input {
+  font-size: 1.2em;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 10px 0;
+  border: 2px solid #710000;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #bf0000;
+  outline: none;
+}
+
+button {
+  background-color: #bf0000;
+  font-size: 1.2em;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 100px;
+}
+
+button:hover {
+  background-color: #710000;
+}
+
+.form {
+  margin-bottom: 300px;
+}
+
+a:link, a:visited, a:active {
+  color: inherit;
+}
+
+.created-by {
+  font-size: 0.7em;
+}
+
+@media (max-width: 700px) {
+  .ribbon {
+    display: none;
+  }
+}
