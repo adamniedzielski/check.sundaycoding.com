@@ -130,7 +130,7 @@ a:link, a:visited, a:active {
   font-size: 0.7em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .ribbon {
     display: none;
   }
