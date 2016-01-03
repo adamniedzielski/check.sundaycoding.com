@@ -135,3 +135,12 @@ a:link, a:visited, a:active {
     display: none;
   }
 }
+
+#success {
+  padding-top: 30px;
+  display: none;
+}
+
+#success:target {
+  display: block;
+}
